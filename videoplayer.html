@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<title>Videoplayer</title>
+
+		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+
+		<script src="../config.js"></script>
+		<script src="../config-ui.js"></script>
+		<script src="../_deps/jquery-3.2.1.js"></script>
+		<script src="../_deps/sniffer-poller.js"></script>
+		<script src="./data.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<center>
+			<video id="myVideo" muted="true" autoplay="false" width=100%> 
+				<source src="" autostart="false">
+			</video>
+		</center>
+		<div class="vocal"></div>
+		<script>var video = document.getElementById("myVideo"); //global scope</script>
+	</body>
+</html>
